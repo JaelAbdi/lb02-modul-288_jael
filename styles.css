@@ -1,0 +1,139 @@
+html {
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    align-content: center;
+}
+
+body {
+    background-image: url(./img/Zeichenfläche\ 1-100.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 50px;
+    min-height: 100vh;
+    color: whitesmoke;
+    font-size: 1.4rem;
+    margin: 2rem auto;
+    padding: 2rem;
+    text-align: center;
+   
+}
+
+img{
+    width: 30%;
+}
+
+.control_wrapper > span{
+    cursor: pointer;
+    color: rgb(250, 152, 201);
+    font-size: 6rem;
+ 
+    padding: 2.5rem;
+    width: 140px;
+   height: 140px;
+   
+   -moz-border-radius: 70px; 
+   -webkit-border-radius: 70px; 
+   border-radius: 70px;
+   margin: 2rem;
+}
+
+#currentSong {
+    overflow: hidden;
+}
+
+#songList{
+    overflow: hidden;
+    text-align: center;
+    display: inline-block;
+}
+
+li {
+    cursor: pointer;
+    padding: 1.5rem;
+    text-align: center;
+    color: white;
+    
+    
+  
+}
+
+li:hover {
+    color: rgb(250, 152, 201);
+    background-color: white;
+    
+    
+}
+
+a {
+    color: whitesmoke;
+}
+
+progress {
+    width: 70%;
+    height: 3rem;
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 800px) {
+    body{
+        max-width: 60vw;
+        font-size: 1.8rem;
+    }
+}
+
+ol {
+    justify-content: center;
+    padding-left: 15rem;
+}
+
+ul :hover{
+    list-style-type: none;
+}
+
+h2{
+    color: rgb(250, 152, 201);
+    text-transform: uppercase;
+}
+
+.songs {
+    padding-top: 5rem;
+}
+
+ul li:nth-child(1)
+{
+
+ background:#1B0E39;
+}
+
+ul li:nth-child(2)
+{
+
+ background:#413c8b;
+}
+
+ul li:nth-child(3)
+{
+
+ background:#1B0E39;
+}
+
+ul li:nth-child(4)
+{
+
+ background:#413c8b;
+}
+
+ul li:nth-child(5)
+{
+
+ background:#1B0E39;
+}
+
+ul :hover {
+
+ background:white;
+}
+
+
+
