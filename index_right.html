@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image" href="../JSON/img/banana-icon.png">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <img src="img/plant.png" alt="plant" class="plant" />
+    <section class="divider">
+        <div class="header">
+            <h2 class="name">Jael Abderhalden</h2>
+        <p id="identification"></p>
+    </section>
+    <img src="img/plant.png" alt="plant" class="plant-background" />
+    <img src="img/plant.png" alt="plant" class="plant-background bottom" />
+    <img src="img/hand.png" alt="" class="hand" />
+
+   
+</div>
+
+
+</body>
+
+
+
+
+
+
+<script>
+
+const gendergroup = [
+"Male", "Femal", "Other"
+];
+
+var userOne = {
+    "firstname": "Jael",
+    "lastname": "Abderhalden",
+    "Iamyoung": 17,
+    "profession": "Mediamatikerin",
+    "office": "Wunderman Thompson Switzerland",
+    "Departement": "Creation Art",
+}
+
+let htmlObj = document.getElementById("identification");
+htmlObj.innerHTML =
+`First Name: ${userOne.firstname}<br>`+
+`last Name: ${userOne.lastname}<br>`+
+`I am young: ${userOne.Iamyoung}<br>`+
+`Job: ${userOne.profession}<br>`+
+`Job: ${userOne.office}<br>`+
+`Departement: ${userOne.Departement}<br>`;
+
+
+
+
+
+</script>
+</html>

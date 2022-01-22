@@ -1,0 +1,106 @@
+body {font-size: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+position: relative;
+margin-bottom: 0px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-attachment: fixed;
+background-color: rgb(248, 200, 69);
+position: relative;
+background-image: url('../JSON/img/hand.jpeg'), url('../JSON/img/colors.jpg');
+background-size: 430px, 470px;
+background-repeat: no-repeat;
+background-position: left top, right;
+}
+
+.header{
+    text-align: center;
+    padding: 5rem;
+}
+
+#identification {
+    margin-top: 0;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(32, 29, 75);
+    
+}
+
+.name{
+  
+    text-align: center;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    font: normal normal  'darker Grotesque', sans-serif;
+    font-size: 100px;
+    text-shadow: 2px black;
+    color: white;
+    
+}
+
+.plant {
+    position: absolute;
+    right: 0;
+    top: 150px;
+    overflow: hidden;
+    width: 600px;
+    transform: rotate(-15deg);
+  }
+  
+  
+  .hand {
+    height: 500px;
+    position: absolute;
+    bottom: 0;
+    right: 300px;
+    z-index: 0;
+    animation: hand 3s infinite;
+    transform: translateY(50px);
+  }
+
+.plant-background {
+    transform: rotate(-240deg);
+    position: absolute;
+    left: -80px;
+    width: 500px;
+    top: 260px;
+  }
+  
+  .plant-background.bottom {
+    top: 530px;
+    transform: rotate(-170deg);
+  }
+  
+  .plant-background.bottom.right {
+    right: 0;
+    transform: rotate(20deg);
+    left: auto;
+    top: 2000px;
+  }
+  
+  .plant.right {
+    top: 2200px;
+  }
+  
+  @keyframes plant-shadow {
+    50% {
+      margin-top: -10px;
+    }
+  }
+  
+  @keyframes hand {
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+  
+  @keyframes plant-move {
+    50% {
+      margin-top: 10px;
+    }
+  }
+  
